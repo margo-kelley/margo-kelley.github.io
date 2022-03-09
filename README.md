@@ -1,7 +1,11 @@
 # Portfolio
 
-placeholder text
+To DO:
+draft bios, READMEs, and docs
+add projects into tiles
+final draft - styling
+rubric check
  
- ## Subheader
+ ## to add
 
- more text
+dark/light mode
