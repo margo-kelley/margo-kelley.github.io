@@ -1,0 +1,171 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #070707;
+}
+
+body{
+  height: inherit;
+  min-width: inherit;
+}
+
+/*CONTAINER - PARENT*/
+.container {
+  /*GRID*/
+  display: grid;
+  /*GRID AREA TEMPLATE*/
+  grid-template-areas:
+  "header header"
+  "main main"
+  "footer footer";
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr .5fr;
+  grid-gap: 20px;
+
+  font-family: 'Josefin Sans', sans-serif;
+  height: 100vh;
+  min-width: 100%;
+  overflow: auto;
+  color: #E7DED9;
+}
+
+/*RESPONSIVE STYLING*/
+/* @media (max-width: 768px) {
+  .container {
+    grid-template-areas:
+      "header"
+      "nav"
+      "content"
+      "side"
+      "footer";
+
+      grid-template-columns: 1fr;
+      grid-template-rows:
+      auto /* Header */
+    /* minmax(75px, auto) Nav */
+    /* 1fr Content */
+    /* minmax(75px, auto) Sidebar */
+    /* auto; Footer */
+  /* } */
+
+  /* aside {
+    margin: 0;
+  }
+}  */
+
+
+.header{
+  grid-area: header;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.logo{
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+ul{
+  float: right;
+  font-family: 'Exo 2', sans-serif;
+  padding-top: 1em;
+  margin-top: 1em;
+}
+
+li{
+  list-style: none;
+  display: inline;
+}
+
+.clearfix a {
+  color: #E7DED9;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: .5em;
+  font-size: 2.1em;
+  letter-spacing: 0.2em;
+}
+
+.clearfix a:hover {
+  color: #028476;
+}
+
+.clearfix a:focus{
+  color: #028476;
+}
+
+.hero{
+  padding-top: 4em;
+  padding-bottom: 4em;
+  text-align: center;
+}
+
+#name{
+  font-size: 4.5em;
+  letter-spacing: 0.15em;
+  color: #107868ea;
+}
+
+#tagline{
+  font-size: 1em;
+  letter-spacing: 0.30em;
+}
+
+hr{
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  grid-area: main;
+  margin-top: 1em;
+  margin-bottom: 4em;
+  padding-left: 4em;
+  padding-right: 4em;
+  margin-left: 2em;
+  margin-right: 2em;
+  text-align: left;
+  letter-spacing: 0.2em;
+  font-size: 1.2em;
+}
+
+.bio{
+  font-size: 1.75em;
+  letter-spacing: 0.1em;
+  color: #028476;
+}
+
+.main-subtitle{
+  margin-bottom: 1em;
+}
+
+.location{
+  font-size: 0.95em;
+  letter-spacing: 0.15em;
+  margin-bottom: .75em;
+  color: #028476;
+}
+
+.bio-content{
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+.footer{
+  grid-area: footer;
+  margin: 2em;
+  font-size: 1em;
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 0.25em;
+  /*WTF IS WRONG W THE COLOR?*/
+  color: #028476;
+}
+

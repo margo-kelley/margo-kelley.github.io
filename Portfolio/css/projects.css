@@ -1,0 +1,49 @@
+/* STYLE CHANGES TO PROJECTS HTML ONLY */
+
+.main-container{
+  grid-area: main;
+  padding: 3em;
+  margin: 3em;
+}
+
+.hero{
+  padding-bottom: 0;
+}
+
+hr{
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.row{
+  padding: 1em;
+}
+
+/*CONVERT TO EM*/
+.card{
+  margin: 1em;
+  font-size: 1em;
+  letter-spacing: .2em;
+}
+
+.card-title{
+  font-size: 1.25em;
+  color: #028476;
+  padding-top: 1em;
+}
+
+.card-subtitle{
+  font-size: .90em;
+}
+
+.card-text{
+  font-size: 1.5em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  border-color: #028476;
+}
