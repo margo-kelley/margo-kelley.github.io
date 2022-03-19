@@ -10,40 +10,54 @@
   padding-bottom: 0;
 }
 
-hr{
-  width: 100%;
-  padding-left: 1em;
-  padding-right: 1em;
+#projects-hr{
+  color: #5F5050;
+  width: 20%;
+  margin-right: auto;
+  margin-left: 0;
 }
 
-.row{
-  padding: 1em;
+.projects-header{
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 100;
+  color: #5F5050;
+  font-size: 2.3em;
+  letter-spacing: .1em;
+  padding-left: .5em;
 }
 
-/*CONVERT TO EM*/
 .card{
   margin: 1em;
-  font-size: 1em;
+}
+
+.card-body{
+  font-size: .95em;
   letter-spacing: .2em;
 }
 
 .card-title{
-  font-size: 1.25em;
-  color: #028476;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.75em;
+  color: #629094;
   padding-top: 1em;
 }
 
 .card-subtitle{
   font-size: .90em;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #5F5050;
 }
 
 .card-text{
   font-size: 1.5em;
   padding-top: .5em;
   padding-bottom: .5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 
 .card:hover{
   transform: scale(1.05);
-  border-color: #028476;
+  border-color: #629094;
 }

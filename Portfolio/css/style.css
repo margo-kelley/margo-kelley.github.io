@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #070707;
+  background-color: #eeeee9;
 }
 
 body{
@@ -24,11 +24,12 @@ body{
   grid-template-rows: 1fr 2fr .5fr;
   grid-gap: 20px;
 
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Montserrat', sans-serif;
   height: 100vh;
   min-width: 100%;
   overflow: auto;
-  color: #E7DED9;
+  color: #191919;
 }
 
 /*RESPONSIVE STYLING*/
@@ -60,6 +61,7 @@ body{
   grid-area: header;
   text-align: center;
   margin-top: 2em;
+  margin-right: 1em;
 }
 
 .logo{
@@ -70,7 +72,7 @@ body{
 
 ul{
   float: right;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Montserrrat', sans-serif;
   padding-top: 1em;
   margin-top: 1em;
 }
@@ -81,50 +83,56 @@ li{
 }
 
 .clearfix a {
-  color: #E7DED9;
+  color: #191919;
   text-decoration: none;
   text-transform: uppercase;
   padding: .5em;
   font-size: 2.1em;
-  letter-spacing: 0.2em;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.1em;
 }
 
 .clearfix a:hover {
-  color: #028476;
+  color: #5F5050;
 }
 
 .clearfix a:focus{
-  color: #028476;
+  color: #5F5050;
 }
 
 .hero{
+  margin-top: 3em;
   padding-top: 4em;
   padding-bottom: 4em;
   text-align: center;
 }
 
 #name{
-  font-size: 4.5em;
-  letter-spacing: 0.15em;
-  color: #107868ea;
+  font-size: 6em;
+  letter-spacing: 0.20em;
+  font-family: 'Bebas Neue', cursive;
+  color: #629094;
 }
 
 #tagline{
-  font-size: 1em;
-  letter-spacing: 0.30em;
+  font-size: 1.15em;
+  letter-spacing: 0.25em;
 }
 
-hr{
-  width: 40%;
-  margin-left: auto;
+#header-hr{
+  color: #5F5050;
+  width: 70%;
+  margin-left: auto ;
   margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em ;
 }
 
-.main {
+.main{
   grid-area: main;
   margin-top: 1em;
   margin-bottom: 4em;
-  padding-left: 4em;
+  padding-left: 1em;
   padding-right: 4em;
   margin-left: 2em;
   margin-right: 2em;
@@ -134,24 +142,31 @@ hr{
 }
 
 .bio{
-  font-size: 1.75em;
-  letter-spacing: 0.1em;
-  color: #028476;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.5em;
+  letter-spacing: 0.07em;
+  color: #629094;
 }
 
-.main-subtitle{
-  margin-bottom: 1em;
+
+#bio-hr{
+  color: #5F5050;
+  width: 35%;
+  margin-left: 0 ;
+  margin-right: 0;
 }
 
 .location{
-  font-size: 0.95em;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.20em;
   letter-spacing: 0.15em;
   margin-bottom: .75em;
-  color: #028476;
+  color: #629094;
 }
 
 .bio-content{
-  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
   letter-spacing: 0.2em;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -165,7 +180,6 @@ hr{
   display: inline-block;
   text-align: center;
   letter-spacing: 0.25em;
-  /*WTF IS WRONG W THE COLOR?*/
-  color: #028476;
+  color: #5F5050;
 }
 
