@@ -3,10 +3,11 @@
 .main-header{
   font-size: 1.25em;
   letter-spacing: 0.15em;
-  color: #028476;
+  color: #629094;
 }
 
 hr{
+  color: #5F5050;
   width: 16.5%;
   margin-left: auto;
   margin-right: auto;
