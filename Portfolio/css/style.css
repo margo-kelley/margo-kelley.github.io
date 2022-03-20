@@ -109,7 +109,7 @@ li{
 
 #name{
   font-size: 6em;
-  letter-spacing: 0.20em;
+  letter-spacing: 0.30em;
   font-family: 'Bebas Neue', cursive;
   color: #629094;
 }
@@ -124,16 +124,16 @@ li{
   width: 70%;
   margin-left: auto ;
   margin-right: auto;
-  margin-top: 2em;
-  margin-bottom: 2em ;
+  margin-top: 3.5em;
+  margin-bottom: 3.5em ;
 }
 
 .main{
   grid-area: main;
   margin-top: 1em;
   margin-bottom: 4em;
-  padding-left: 1em;
-  padding-right: 4em;
+  padding-left: 2em;
+  padding-right: 2em;
   margin-left: 2em;
   margin-right: 2em;
   text-align: left;
@@ -175,7 +175,7 @@ li{
 
 .footer{
   grid-area: footer;
-  margin: 2em;
+  margin: 2.5em;
   font-size: 1em;
   display: inline-block;
   text-align: center;
