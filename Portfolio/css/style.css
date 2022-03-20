@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #eeeee9;
+  background-color: #D9DAD3;
 }
 
 body{
@@ -93,11 +93,11 @@ li{
 }
 
 .clearfix a:hover {
-  color: #5F5050;
+  color: #629094;
 }
 
 .clearfix a:focus{
-  color: #5F5050;
+  color: #629094;
 }
 
 .hero{
