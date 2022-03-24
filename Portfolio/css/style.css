@@ -60,21 +60,19 @@ body{
 .header{
   grid-area: header;
   text-align: center;
-  margin-top: 2em;
-  margin-right: 1em;
 }
 
 .logo{
   float: left;
-  width: 100px;
-  height: 100px;
 }
 
 ul{
   float: right;
   font-family: 'Montserrrat', sans-serif;
-  padding-top: 1em;
-  margin-top: 1em;
+}
+
+.nav{
+  margin-top: 1.5em;
 }
 
 li{
@@ -101,28 +99,31 @@ li{
 }
 
 .hero{
-  margin-top: 3em;
-  padding-top: 4em;
   padding-bottom: 4em;
-  text-align: center;
+  text-align: left;
 }
 
 #name{
-  font-size: 6em;
-  letter-spacing: 0.30em;
+  margin-top: 1em;
+  margin-left: 1em;
+  padding-left: 1em;
+  font-size: 5em;
+  letter-spacing: 0.18em;
   font-family: 'Bebas Neue', cursive;
   color: #629094;
 }
 
 #tagline{
-  font-size: 1.15em;
+  margin-left: 5em;
+  padding-left: 5em;
+  font-size: 1em;
   letter-spacing: 0.25em;
 }
 
 #header-hr{
   color: #5F5050;
-  width: 70%;
-  margin-left: auto ;
+  width: 50%;
+  margin-left: 0;
   margin-right: auto;
   margin-top: 3.5em;
   margin-bottom: 3.5em ;
@@ -146,13 +147,18 @@ li{
   font-size: 2.5em;
   letter-spacing: 0.07em;
   color: #629094;
+  text-align: right;
+}
+
+.bio-subtitle{
+  text-align: right;
 }
 
 
 #bio-hr{
   color: #5F5050;
   width: 35%;
-  margin-left: 0 ;
+  margin-left: auto ;
   margin-right: 0;
 }
 
@@ -160,8 +166,9 @@ li{
   font-family: 'Bebas Neue', cursive;
   font-size: 1.20em;
   letter-spacing: 0.15em;
-  margin-bottom: .75em;
+  margin-bottom: 1em;
   color: #629094;
+  text-align: left;
 }
 
 .bio-content{
