@@ -179,6 +179,18 @@ li{
   margin-bottom: 1em;
 }
 
+.contact-header{
+  font-size: 1.25em;
+  letter-spacing: 0.15em;
+  color: #629094;
+}
+
+.contact-hr{
+  color: #5F5050;
+  width: 16.5%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .footer{
   grid-area: footer;
