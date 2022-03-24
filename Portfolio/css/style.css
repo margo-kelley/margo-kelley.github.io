@@ -1,11 +1,11 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   background-color: #D9DAD3;
 }
 
-body{
+body {
   height: inherit;
   min-width: inherit;
 }
@@ -57,25 +57,25 @@ body{
 }  */
 
 
-.header{
+.header {
   grid-area: header;
   text-align: center;
 }
 
-.logo{
+.logo {
   float: left;
 }
 
-ul{
+ul {
   float: right;
   font-family: 'Montserrrat', sans-serif;
 }
 
-.nav{
+.nav {
   margin-top: 1.5em;
 }
 
-li{
+li {
   list-style: none;
   display: inline;
 }
@@ -98,12 +98,12 @@ li{
   color: #629094;
 }
 
-.hero{
+.hero {
   padding-bottom: 4em;
   text-align: left;
 }
 
-#name{
+#name {
   margin-top: 1em;
   margin-left: 1em;
   padding-left: 1em;
@@ -113,23 +113,24 @@ li{
   color: #629094;
 }
 
-#tagline{
+#tagline {
   margin-left: 5em;
   padding-left: 5em;
   font-size: 1em;
   letter-spacing: 0.25em;
 }
 
-#header-hr{
+#header-hr {
   color: #5F5050;
   width: 50%;
+  height: 1.5px;
   margin-left: 0;
   margin-right: auto;
   margin-top: 3.5em;
   margin-bottom: 3.5em ;
 }
 
-.main{
+.main {
   grid-area: main;
   margin-top: 1em;
   margin-bottom: 4em;
@@ -142,7 +143,7 @@ li{
   font-size: 1.2em;
 }
 
-.bio{
+.bio {
   font-family: 'Bebas Neue', cursive;
   font-size: 2.5em;
   letter-spacing: 0.07em;
@@ -150,19 +151,19 @@ li{
   text-align: right;
 }
 
-.bio-subtitle{
+.bio-subtitle {
   text-align: right;
 }
 
 
-#bio-hr{
+#bio-hr {
   color: #5F5050;
   width: 35%;
   margin-left: auto ;
   margin-right: 0;
 }
 
-.location{
+.location {
   font-family: 'Bebas Neue', cursive;
   font-size: 1.20em;
   letter-spacing: 0.15em;
@@ -171,7 +172,7 @@ li{
   text-align: left;
 }
 
-.bio-content{
+.bio-content {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.25em;
   letter-spacing: 0.2em;
@@ -179,20 +180,20 @@ li{
   margin-bottom: 1em;
 }
 
-.contact-header{
+.contact-header {
   font-size: 1.25em;
   letter-spacing: 0.15em;
   color: #629094;
 }
 
-.contact-hr{
+.contact-hr {
   color: #5F5050;
   width: 16.5%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.footer{
+.footer {
   grid-area: footer;
   margin: 2.5em;
   font-size: 1em;
