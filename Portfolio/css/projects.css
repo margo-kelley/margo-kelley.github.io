@@ -1,55 +1,54 @@
 /* STYLE CHANGES TO PROJECTS HTML ONLY */
 
-.main-container{
+.main-container {
   grid-area: main;
   padding: 3em;
   margin: 3em;
 }
 
-.hero{
-  padding-bottom: 0;
-}
-
-#projects-hr{
-  color: #5F5050;
-  width: 20%;
-  margin-right: auto;
-  margin-left: 0;
-}
-
-.projects-header{
+.projects-header {
   font-family: 'Bebas Neue', cursive;
   font-weight: 100;
-  color: #5F5050;
-  font-size: 2.3em;
-  letter-spacing: .1em;
-  padding-left: .5em;
+  color: #629094;
+  font-size: 3.95em;
+  letter-spacing: .15em;
+  padding-left: 6em;
 }
 
-.card{
+#projects-hr {
+  color: #5F5050;
+  height: 1.75px;
+  width: 45%;
+  margin-right: auto;
+  margin-left: 19.5em;
+  margin-top: 0;
+  margin-bottom: 4em;
+}
+
+.card {
   margin: 1em;
 }
 
-.card-body{
+.card-body {
   font-size: .95em;
   letter-spacing: .2em;
 }
 
-.card-title{
+.card-title {
   font-family: 'Bebas Neue', cursive;
   font-size: 1.75em;
   color: #629094;
   padding-top: 1em;
 }
 
-.card-subtitle{
+.card-subtitle {
   font-size: .90em;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   color: #5F5050;
 }
 
-.card-text{
+.card-text {
   font-size: 1.5em;
   padding-top: .5em;
   padding-bottom: .5em;
@@ -57,7 +56,11 @@
   font-weight: 300;
 }
 
-.card:hover{
+.card:hover {
   transform: scale(1.05);
   border-color: #629094;
+}
+
+.footer {
+  margin-top: 10em;
 }
