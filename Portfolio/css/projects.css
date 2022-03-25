@@ -1,4 +1,7 @@
 /* STYLE CHANGES TO PROJECTS HTML ONLY */
+*{
+  background-color: white;
+}
 
 .main-container {
   grid-area: main;
@@ -10,17 +13,17 @@
   font-family: 'Bebas Neue', cursive;
   font-weight: 100;
   color: #629094;
-  font-size: 3.95em;
+  font-size: 3em;
   letter-spacing: .15em;
-  padding-left: 6em;
+  padding-left: 4em;
 }
 
 #projects-hr {
   color: #5F5050;
   height: 1.75px;
-  width: 45%;
+  width: 35%;
   margin-right: auto;
-  margin-left: 19.5em;
+  margin-left: 10em;
   margin-top: 0;
   margin-bottom: 4em;
 }
@@ -58,7 +61,6 @@
 
 .card:hover {
   transform: scale(1.05);
-  border-color: #629094;
 }
 
 .footer {
