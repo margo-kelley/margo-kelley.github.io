@@ -73,6 +73,12 @@ ul {
   margin-top: 1.5em;
 }
 
+.contact-nav {
+  margin-top: 3em;
+  font-size: .75em;
+  padding-right: 0;
+}
+
 li {
   list-style: none;
   display: inline;
@@ -83,7 +89,7 @@ li {
   text-decoration: none;
   text-transform: uppercase;
   padding: .5em;
-  font-size: 2.1em;
+  font-size: 2em;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.1em;
 }
@@ -103,7 +109,6 @@ li {
 
 #name {
   margin-top: 1em;
-  /* padding-left: 1.5em; */
   font-size: 5em;
   letter-spacing: 0.18em;
   font-family: 'Bebas Neue', cursive;
@@ -111,7 +116,6 @@ li {
 }
 
 #tagline {
-  /* padding-left: 7.5em; */
   font-size: 1em;
   letter-spacing: 0.25em;
 }
@@ -167,6 +171,7 @@ li {
   padding-bottom: .75em;
   color: #629094;
   text-align: left;
+
 }
 
 .bio-personal {
@@ -198,16 +203,29 @@ li {
 }
 
 .contact-header {
-  font-size: 1.25em;
-  letter-spacing: 0.15em;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2em;
+  letter-spacing: 0.07em;
   color: #629094;
+  text-align: left;
 }
 
 .contact-hr {
   color: #5F5050;
-  width: 16.5%;
+  width: 30%;
   margin-left: 0;
   margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#contact-gh {
+  text-decoration: none;
+  color: #629094;
+}
+
+#contact-gh:hover {
+  color: #5F5050;
 }
 
 .footer {
@@ -217,6 +235,6 @@ li {
   display: inline-block;
   text-align: center;
   letter-spacing: 0.25em;
-  color: #5F5050;
+  color: #191919;
 }
 
