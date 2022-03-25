@@ -3,9 +3,26 @@
   background-color: #D9DAD3;
 }
 
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #D9DAD3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5F5050;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #629094;
+}
+
 body {
   height: inherit;
   min-width: inherit;
+  overflow: hidden;
 }
 
 /*CONTAINER - PARENT*/
