@@ -25,7 +25,6 @@ body {
   overflow: hidden;
 }
 
-/*CONTAINER - PARENT*/
 .container {
   /*GRID*/
   display: grid;
@@ -81,10 +80,6 @@ body {
   float: left;
 }
 
-ul {
-  float: right;
-  font-family: 'Montserrrat', sans-serif;
-}
 
 .nav {
   margin-top: 1.5em;
@@ -155,7 +150,6 @@ li {
   padding-right: 2em;
   margin-left: 2em;
   margin-right: 2em;
-  text-align: left;
   letter-spacing: 0.2em;
   font-size: 1.2em;
 }
@@ -182,19 +176,19 @@ li {
 
 .bio-prof {
   font-family: 'Bebas Neue', cursive;
-  font-size: 1.20em;
+  font-size: 1.5em;
   letter-spacing: 0.15em;
   padding-top: 3.5em;
   padding-bottom: .75em;
   color: #629094;
   text-align: left;
-
 }
 
 .bio-personal {
   font-family: 'Bebas Neue', cursive;
-  font-size: 1.20em;
+  font-size: 1.75em;
   letter-spacing: 0.15em;
+  margin-top: 2em;
   margin-bottom: 1em;
   color: #629094;
   text-align: right;
@@ -205,7 +199,7 @@ li {
   font-size: 1em;
   letter-spacing: 0.15em;
   margin-top: 1em;
-  margin-right: 9em;
+  margin-right: 5em;
   margin-bottom: 1em;
 }
 
