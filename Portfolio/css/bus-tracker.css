@@ -1,3 +1,9 @@
+.main-container {
+  grid-area: main;
+  padding: 3em;
+  margin: 3em;
+}
+
 .bus-header {
   font-family: 'Bebas Neue', cursive;
   font-weight: 100;
