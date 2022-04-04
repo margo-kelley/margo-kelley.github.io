@@ -1,3 +1,10 @@
+:root {
+  --prim-color: #d9dad3;
+  --dark: #191919;
+  --dark-highlight: #5f5050;
+  --highlight: #629094;
+}
+
 * {
   box-sizing: border-box;
   background-color: #D9DAD3;
