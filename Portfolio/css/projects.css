@@ -32,6 +32,10 @@
   margin: 1em;
 }
 
+.card-link {
+  text-decoration: none;
+}
+
 .card-body {
   font-size: .95em;
   letter-spacing: .2em;
@@ -57,6 +61,7 @@
   padding-bottom: .5em;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  color: #191919;
 }
 
 .card:hover {
