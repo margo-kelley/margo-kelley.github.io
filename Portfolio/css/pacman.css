@@ -7,7 +7,7 @@
 .bus-header {
   font-family: 'Bebas Neue', cursive;
   font-weight: 100;
-  color: #629094;
+  color: var(--accent-main);
   font-size: 2.5em;
   letter-spacing: .15em;
   text-align: right;
@@ -15,7 +15,7 @@
 }
 
 #bus-hr {
-  color: #5f5f5f;
+  color: var(--accent);
   height: 1.75px;
   width: 55%;
   margin-right: 0;

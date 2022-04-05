@@ -1,13 +1,13 @@
 :root {
   --primary: #d9dad3;
   --dark: #191919;
-  --dark-highlight: #5f5050;
-  --highlight: #629094;
+  --accent: #5f5050;
+  --accent-main: var(--accent-main);
 }
 
 * {
   box-sizing: border-box;
-  background-color: #D9DAD3;
+  background-color: var(--primary);
 }
 
 ::-webkit-scrollbar {
@@ -15,15 +15,15 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #D9DAD3;
+  background: var(--primary);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #5F5050;
+  background: var(--accent);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #629094;
+  background: var(--accent-main);
 }
 
 body {
@@ -50,7 +50,7 @@ body {
   height: 100vh;
   min-width: 100%;
   overflow: auto;
-  color: #191919;
+  color: var(--dark);
 }
 
 /*RESPONSIVE STYLING*/
@@ -104,7 +104,7 @@ li {
 }
 
 .clearfix a {
-  color: #191919;
+  color: var(--dark);
   text-decoration: none;
   text-transform: uppercase;
   padding: .5em;
@@ -114,11 +114,11 @@ li {
 }
 
 .clearfix a:hover {
-  color: #629094;
+  color: var(--accent-main);
 }
 
 .clearfix a:focus{
-  color: #629094;
+  color: var(--accent-main);
 }
 
 .hero {
@@ -131,7 +131,7 @@ li {
   font-size: 5em;
   letter-spacing: 0.18em;
   font-family: 'Bebas Neue', cursive;
-  color: #629094;
+  color: var(--accent-main);
 }
 
 #tagline {
@@ -140,7 +140,7 @@ li {
 }
 
 #header-hr {
-  color: #5F5050;
+  color: var(--accent);
   width: 53%;
   height: 1.75px;
   margin-left: 0;
@@ -165,7 +165,7 @@ li {
   font-family: 'Bebas Neue', cursive;
   font-size: 2.5em;
   letter-spacing: 0.07em;
-  color: #629094;
+  color: var(--accent-main);
   text-align: right;
 }
 
@@ -175,7 +175,7 @@ li {
 
 
 #bio-hr {
-  color: #5F5050;
+  color: var(--accent);
   width: 35%;
   margin-left: auto ;
   margin-right: 0;
@@ -187,7 +187,7 @@ li {
   letter-spacing: 0.15em;
   padding-top: 3.5em;
   padding-bottom: .75em;
-  color: #629094;
+  color: var(--accent-main);
   text-align: left;
 }
 
@@ -197,7 +197,7 @@ li {
   letter-spacing: 0.15em;
   margin-top: 2em;
   margin-bottom: 1em;
-  color: #629094;
+  color: var(--accent-main);
   text-align: right;
 }
 
@@ -224,12 +224,12 @@ li {
   font-family: 'Bebas Neue', cursive;
   font-size: 2em;
   letter-spacing: 0.07em;
-  color: #629094;
+  color: var(--accent-main);
   text-align: left;
 }
 
 .contact-hr {
-  color: #5F5050;
+  color: var(--accent);
   width: 30%;
   margin-left: 0;
   margin-right: auto;
@@ -239,11 +239,11 @@ li {
 
 #contact-gh {
   text-decoration: none;
-  color: #629094;
+  color: var(--accent-main);
 }
 
 #contact-gh:hover {
-  color: #5F5050;
+  color: var(--accent);
 }
 
 .footer {
@@ -253,6 +253,6 @@ li {
   display: inline-block;
   text-align: center;
   letter-spacing: 0.25em;
-  color: #191919;
+  color: var(--dark);
 }
 
