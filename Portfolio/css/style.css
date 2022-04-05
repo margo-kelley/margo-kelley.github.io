@@ -1,8 +1,9 @@
 :root {
-  --primary: #d9dad3;
-  --dark: #191919;
-  --accent: #5f5050;
-  --accent-main: var(--accent-main);
+  --primary: #DADBDE;
+  --dark: #442E25;
+  --dark-accent: #7E5332;
+  --accent: #B98953;
+  --accent-main: #6E313B;
 }
 
 * {
@@ -47,6 +48,7 @@ body {
 
   font-family: 'Bebas Neue', cursive;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   height: 100vh;
   min-width: 100%;
   overflow: auto;
@@ -165,7 +167,7 @@ li {
   font-family: 'Bebas Neue', cursive;
   font-size: 2.5em;
   letter-spacing: 0.07em;
-  color: var(--accent-main);
+  color: var(--dark);
   text-align: right;
 }
 
@@ -175,7 +177,7 @@ li {
 
 
 #bio-hr {
-  color: var(--accent);
+  color: var(--dark);
   width: 35%;
   margin-left: auto ;
   margin-right: 0;
@@ -187,7 +189,7 @@ li {
   letter-spacing: 0.15em;
   padding-top: 3.5em;
   padding-bottom: .75em;
-  color: var(--accent-main);
+  color: var(--dark);
   text-align: left;
 }
 
@@ -197,7 +199,7 @@ li {
   letter-spacing: 0.15em;
   margin-top: 2em;
   margin-bottom: 1em;
-  color: var(--accent-main);
+  color: var(--dark);
   text-align: right;
 }
 
@@ -224,12 +226,12 @@ li {
   font-family: 'Bebas Neue', cursive;
   font-size: 2em;
   letter-spacing: 0.07em;
-  color: var(--accent-main);
+  color: var(--dark);
   text-align: left;
 }
 
 .contact-hr {
-  color: var(--accent);
+  color: var(--dark);
   width: 30%;
   margin-left: 0;
   margin-right: auto;
@@ -239,11 +241,11 @@ li {
 
 #contact-gh {
   text-decoration: none;
-  color: var(--accent-main);
+  color: var(--dark);
 }
 
 #contact-gh:hover {
-  color: var(--accent);
+  color: var(--dark-accent);
 }
 
 .footer {
