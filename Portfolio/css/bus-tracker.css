@@ -43,6 +43,13 @@
   font-weight: 500;
 }
 
+.img {
+  float: right;
+  padding: 5px;
+  height: 13em;
+  width: 20em;
+}
+
 .footer {
   margin-top: 15em;
 }
