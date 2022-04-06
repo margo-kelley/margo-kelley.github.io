@@ -1,9 +1,8 @@
 :root {
   --primary: #d9dad3;
-  --dark: #442E25;
-  --dark-accent: #93A7AA;
-  --accent: #6E313B;
-  --accent-main: #2E5E4D;
+  --dark: #191919;
+  --dark-accent: #5f5050;
+  --accent-main: #629094;
 }
 
 * {
@@ -20,7 +19,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--accent);
+  background: var(--dark-accent);
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -142,7 +141,7 @@ li {
 }
 
 #header-hr {
-  color: var(--accent);
+  color: var(--accent-main);
   width: 53%;
   height: 1.75px;
   margin-left: 0;
