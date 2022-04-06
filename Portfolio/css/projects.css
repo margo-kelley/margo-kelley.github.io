@@ -14,7 +14,7 @@
 }
 
 #projects-hr {
-  color: var(--accent);
+  color: var(--dark-accent);
   height: 1.75px;
   width: 35%;
   margin-right: auto;
@@ -47,7 +47,7 @@
   font-size: .90em;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
-  color: var(--accent);
+  color: var(--dark-accent);
 }
 
 .card-text {

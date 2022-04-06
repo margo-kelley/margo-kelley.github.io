@@ -15,7 +15,7 @@
 }
 
 #bus-hr {
-  color: var(--accent);
+  color: var(--dark-accent);
   height: 1.75px;
   width: 55%;
   margin-right: 0;
