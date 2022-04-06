@@ -33,9 +33,7 @@ body {
 }
 
 .container {
-  /*GRID*/
   display: grid;
-  /*GRID AREA TEMPLATE*/
   grid-template-areas:
   "header header"
   "main main"
@@ -54,31 +52,6 @@ body {
   color: var(--dark);
 }
 
-/*RESPONSIVE STYLING*/
-/* @media (max-width: 768px) {
-  .container {
-    grid-template-areas:
-      "header"
-      "nav"
-      "content"
-      "side"
-      "footer";
-
-      grid-template-columns: 1fr;
-      grid-template-rows:
-      auto /* Header */
-    /* minmax(75px, auto) Nav */
-    /* 1fr Content */
-    /* minmax(75px, auto) Sidebar */
-    /* auto; Footer */
-  /* } */
-
-  /* aside {
-    margin: 0;
-  }
-}  */
-
-
 .header {
   grid-area: header;
   text-align: center;
@@ -87,7 +60,6 @@ body {
 .logo {
   float: left;
 }
-
 
 .nav {
   margin-top: 1.5em;
@@ -174,7 +146,6 @@ li {
   text-align: right;
 }
 
-
 #bio-hr {
   color: var(--dark);
   width: 35%;
@@ -256,4 +227,3 @@ li {
   letter-spacing: 0.25em;
   color: var(--dark);
 }
-
