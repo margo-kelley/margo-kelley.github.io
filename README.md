@@ -5,7 +5,7 @@
 
 ## Eyes
 
-<a href="margo-kelley.github.io/eyes/">Eyes Repo</a> 
+[Eyes Repo](margo-kelley.github.io)
 
 ## Bus Tracker
 
