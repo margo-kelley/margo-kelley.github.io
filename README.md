@@ -9,11 +9,11 @@
 
 ## Bus Tracker
 
-<a href="https://margo-kelley.github.io/bus-tracker/">Bus Tracker Repo</a> 
+[Bus Tracker Repo](margo-kelley.github.io/bus-tracker/)
 
 ## Pacman Factory
 
-<a href="margo-kelley.github.io/pacman-factory/">Pacman Factory Repo</a> 
+[Pacman Factory Repo](margo-kelley.github.io/pacman-factory/)
 
 Goal: build a webpage to showcase projects during and after the MITxPro course.
 
