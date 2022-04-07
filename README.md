@@ -5,15 +5,15 @@
 
 ## Eyes
 
-<a href="margo-kelley.github.io/eyes/"></a> 
+<a href="margo-kelley.github.io/eyes/">Eyes Repo</a> 
 
 ## Bus Tracker
 
-<a href="https://margo-kelley.github.io/bus-tracker/"></a> 
+<a href="https://margo-kelley.github.io/bus-tracker/">Bus Tracker Repo</a> 
 
 ## Pacman Factory
 
-<a href="margo-kelley.github.io/pacman-factory/"></a> 
+<a href="margo-kelley.github.io/pacman-factory/">Pacman Factory Repo</a> 
 
 Goal: build a webpage to showcase projects during and after the MITxPro course.
 
