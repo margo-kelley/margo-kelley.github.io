@@ -3,6 +3,17 @@
 
 #### A MITxPro project.
 
+## Eyes
+
+<a href="margo-kelley.github.io/eyes/"></a> 
+
+## Bus Tracker
+
+<a href="https://margo-kelley.github.io/bus-tracker/"></a> 
+
+## Pacman Factory
+
+<a href="margo-kelley.github.io/pacman-factory/"></a> 
 
 Goal: build a webpage to showcase projects during and after the MITxPro course.
 
