@@ -42,19 +42,6 @@ This is version 1.0 of my working portfolio.
 - [ ]  Add side projects
 - [ ]  Dark mode/high contrast
 
-## Hi, I'm Mak! 👋
-
-### 🚀 About Me
-
-#### Mak is short for Margo A. Kelley
-
-😄 Pronouns: she/her
-
-🧠 I'm currently in the MITxPro Full-Stack Web Development program (MERN stack)
-
-📫 How to reach me: margo.kelley13@gmail.com
-
-⚡️ Fun fact: ... I could rant about history until I die and still have more to say.
 
 ## License
 
